@@ -19,7 +19,7 @@ function mapsInit(position) {
     onChildAdded(dbRef, function(data){   
     const shop  = data.val();
 
-    map.pinText(shop.lat, shop.lon, shop.shop,"ああ","花");    
+    map.pinText(shop.lat, shop.lon, shop.shop,"","花");    
     // map.pinLayer(shop.lat, shop.lon, "#ff0000");
 
     });
